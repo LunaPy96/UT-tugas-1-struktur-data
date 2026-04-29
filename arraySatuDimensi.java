@@ -1,4 +1,3 @@
-
 public class arraySatuDimensi {
     public static void main(String[] args) {
         int[] DelapanAngka;
@@ -11,10 +10,8 @@ public class arraySatuDimensi {
         DelapanAngka[5] = 58;
         DelapanAngka[6] = 67;
         DelapanAngka[7] = 82;
-        System.out.println("Menampilkan urutan angka ke-2 yaitu:");
-        System.out.println(DelapanAngka[1]);
+        System.out.println("DelapanAngka ke 2 = " + DelapanAngka[1]);
         for (int i = 0; i < 8; i++) {
-            System.out.println("Menampilkan seluruh urutan array yaitu:");
             System.out.println(DelapanAngka[i]);
         }
     }
